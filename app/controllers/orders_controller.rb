@@ -10,9 +10,9 @@ class OrdersController < ApplicationController
       @product = Product.find(item.product_id)
 
       @order_items.push({
-        price_each: item.item_price_cents,
-        total_price: item.total_price_cents,
-        quantity:item.quantity,
+        unit_price: item.item_price_cents / 100.0,
+        total_price: item.total_price_cents / 100.0,
+        quantity: item.quantity,
         product: @product
       })
     end
