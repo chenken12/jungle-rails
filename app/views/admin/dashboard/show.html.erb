@@ -1,2 +1,21 @@
-<h1>Admin::Dashboard#show</h1>
+<h1>Admin Dashboard</h1>
+
+<div class="panel panel-default items">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Count</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @category_count.each do |category| %>
+          <%= render 'item', name: category[:name], count: category[:count] %>
+      <% end %>
+    </tbody>
+
+  </table>
+</div>
+
 <p>Find me in app/views/admin/dashboard/show.html.erb</p>
