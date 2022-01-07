@@ -1,8 +1,6 @@
 class Admin::DashboardController < ApplicationController
   def show
     @category = Category.all
-    @product = Product.all
-
     @category_count = []
 
     @category.each do |cat|
@@ -18,8 +16,5 @@ class Admin::DashboardController < ApplicationController
       name: "Total",
       count: Product.count
     })
-
-    puts @category.inspect
-    puts @category_count
   end
 end
