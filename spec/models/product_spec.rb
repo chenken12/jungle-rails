@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Product, type: :model do
-  describe 'Validations' do
+  describe 'Validations Product' do
     # validation tests/examples here
-    it 'should not exist for new records' do
+    it 'should create a valid product for new records' do
       @product = Product.new
       expect(@product.id).to be_nil
     end
@@ -27,7 +27,7 @@ RSpec.describe Product, type: :model do
       expect(@product.category).to eq(@category)
     end
 
-    it 'validates a error for blank name' do
+    it 'validates error for blank name' do
       @category = Category.create({name: "Spec"})
       
       @product = Product.new({
@@ -41,7 +41,7 @@ RSpec.describe Product, type: :model do
       
     end
 
-    it 'validates a error for blank price_cents' do
+    it 'validates error for blank price_cents' do
       @category = Category.create({name: "Spec"})
       
       @product = Product.new({
@@ -55,7 +55,7 @@ RSpec.describe Product, type: :model do
       
     end
 
-    it 'validates a error for quantity' do
+    it 'validates error for blank quantity' do
       @category = Category.create({name: "Spec"})
       
       @product = Product.new({
@@ -69,7 +69,7 @@ RSpec.describe Product, type: :model do
       
     end
 
-    it 'validates a error for category' do
+    it 'validates error for blank category' do
       @product = Product.new({
         name: "Test Kit",
         price_cents: 399,
