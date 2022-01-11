@@ -73,5 +73,12 @@ RSpec.describe User, type: :model do
 
       expect(@user).to eq(@signin)
     end
+
+    it 'should not be able sign in with Uppercass in email' do
+      @user = User.create(first_name: "Ken", last_name: "Chen", email:"test@g.com", password: '123456', password_confirmation: '123456' )
+      @signin = User.authenticate_with_credentials("TEST@G.COM", "123456")
+
+      expect(@user).to eq(@signin)
+    end
   end
 end
