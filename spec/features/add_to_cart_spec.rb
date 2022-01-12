@@ -21,9 +21,14 @@ RSpec.feature "Visitor navigates to add cart", type: :feature, js: true do
     # ACT
     visit root_path
 
+    expect(page).to have_text 'My Cart (0)'
+
+    page.first('form.button_to').find('button').click
+
+    expect(page).to have_text 'My Cart (1)'
 
     # DEBUG / VERIFY
-    # save_screenshot
+    #save_screenshot
 
     
   end
