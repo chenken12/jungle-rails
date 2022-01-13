@@ -3,13 +3,27 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 ## Changes made to Jungle
-- Feature: Sold Out Badge
-- Feature: Admin Categories
-- Feature: User Authentication
-- Update: Order Details page
+### Added Page
+- Admin Categories
+- User Authentication
+- Order Details page
+- Login & Sign In
 
-- Bug: Add admin security
--  
+### Added Features 
+- Sold out badge
+- User authentication
+- Create new categories
+
+### Fix Bugs
+- Admin security
+- Stop checkout if cart empty
+- Price Number on other page
+
+### Creating Tests 
+- user login/signup
+- homepage
+- add to cart
+- product detail
 
 ## ScreenShots
 !["TopNav-SignIn"](https://github.com/chenken12/jungle-rails/blob/master/doc/TopNav-SignIn.png?raw=true)
