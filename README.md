@@ -10,8 +10,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Login.png?raw=true" width="35%"> <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-SignIn.png?raw=true" width="55%">
 
-<img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Order.png?raw=true" width="60%">
-<img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-SoldOut.png?raw=true" width="36%">
+<img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Order.png?raw=true" width="55%">
+<img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-SoldOut.png?raw=true" width="33%">
 
 
 ## Additional Steps for Apple M1 Machines
