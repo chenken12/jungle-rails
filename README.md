@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Changes made to Jungle
+- Feature: Sold Out Badge
+- Feature: Admin Categories
+- Feature: User Authentication
+- Update: Order Details page
+
+- Bug: Add admin security
+-  
+
 ## ScreenShots
 !["TopNav-SignIn"](https://github.com/chenken12/jungle-rails/blob/master/doc/TopNav-SignIn.png?raw=true)
 !["TopNav-User"](https://github.com/chenken12/jungle-rails/blob/master/doc/TopNav-withUser.png?raw=true)
@@ -9,6 +18,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 !["Jungle-Dashboard"](https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Dashboard.png?raw=true)
 
 <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Login.png?raw=true" width="35%"> <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-SignIn.png?raw=true" width="55%">
+
+!["Jungle-EmptyCart"](https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-EmptyCart.png?raw=true)
 
 <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-Order.png?raw=true" width="60%"> <img src="https://github.com/chenken12/jungle-rails/blob/master/doc/Jungle-SoldOut.png?raw=true" width="33%">
 
