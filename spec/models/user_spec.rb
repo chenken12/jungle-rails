@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   describe 'Validations User' do
-    it 'should save new user in the db' do@user = User.new(first_name: "Ken", last_name: "Chen", email:"test@g.com", password: '123456', password_confirmation: '123456' )
-      
+    it 'should save new user in the db' do
+      @user = User.new(first_name: "Ken", last_name: "Chen", email:"test@g.com", password: '123456', password_confirmation: '123456' )
       @user.save!
       expect(@user).to be_valid
     end
